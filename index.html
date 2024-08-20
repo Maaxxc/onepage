@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Maxsuel Costa">
+
+    <!-- Primary Meta Tags -->
+    <title>Protfolio</title>
+    <meta name="title" content="Protfolio" />
+    <meta name="description"
+        content="Miles Morales é um designer de UX especializado em criar experiências digitais intuitivas e centradas no usuário. Com um olhar atento para detalhes e uma abordagem orientada por pesquisas, ele desenvolve interfaces que equilibram estética e funcionalidade, garantindo que os usuários tenham uma jornada fluida e agradável em cada interação." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta property="og:title" content="Protfolio" />
+    <meta property="og:description"
+        content="Miles Morales é um designer de UX especializado em criar experiências digitais intuitivas e centradas no usuário. Com um olhar atento para detalhes e uma abordagem orientada por pesquisas, ele desenvolve interfaces que equilibram estética e funcionalidade, garantindo que os usuários tenham uma jornada fluida e agradável em cada interação." />
+    <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta property="twitter:title" content="Protfolio" />
+    <meta property="twitter:description"
+        content="Miles Morales é um designer de UX especializado em criar experiências digitais intuitivas e centradas no usuário. Com um olhar atento para detalhes e uma abordagem orientada por pesquisas, ele desenvolve interfaces que equilibram estética e funcionalidade, garantindo que os usuários tenham uma jornada fluida e agradável em cada interação." />
+    <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+
+    <!-- Meta Tags Generated with https://metatags.io -->
+
+    <meta name="revisit-after" content="90 days">
+    <meta name="robots" content="index, follow">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="googlebot" content="index, follow">
+    <meta name="googlebot" content="noindex, nofollow">
+
+    <meta name="geo.region" content="BR-RS">
+    <meta name="geo.placename" content="Rio Grande">
+    <meta name="geo.position" content="-23.560520;-46.333308">
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <main>
+        <header class="container-fluid sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand d-flex" href="index.html">
+                    <img src="./assets/img/logo.png" width="80" height="80" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false"
+                    aria-label="Alterna navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                    <ul class="navbar-nav mr-auto ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre mim <span class="sr-only">(página atual)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projetos">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#modelo">Modelo de Trabalho</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </header>
+
+        <section id="sobre" class="container-fluid ">
+            <div class="d-flex align-items-center">
+                <div class=" container img-sobre">
+                    <a href="index.html"><img src="./assets/img/mileshome1.png"
+                            style="max-width: 90%; width: 520px" class="mx-auto" alt="logo da loja"></a>
+                </div>
+
+                <div class="container text-sobre">
+                    <h1 style="font-size: 32px;">Eleve seu negocio com um design de qualidade!</h1>
+
+                    <p class="text-justify estilo-text-p" style="font-size: 24px;">Ola! Sou Miles,um UX designer
+                        dedicado a criar experiências digitais excepcionais. Com foco no design centrado no usuário,
+                        busco desenvolver soluções intuitivas, funcionais e visualmente atraentes.</p>
+
+                </div>
+            </div>
+        </section>
+        <section id="projetos" class="container">
+            <h1 class="my-4">Projetos</h1>
+            <div class="container-fluid d-flex justify-content-evenly" style="justify-content: space-evenly;">
+                <!--Nao funcionou com a class justify-content-evenly-->
+                <div class="card" style="width: 22rem;">
+                    <img src="./assets/img/Card1.jpg" class="card-img-top" alt="Projeto task">
+                    <div class="card-body">
+                        <h5 class="card-title sub-titile">TaskBraim</h5>
+                        <p class="card-text estilo-text-p">Plataforma é projetada não apenas...</p>
+                        <!-- Botão para acionar modal -->
+                        <div class="btn-center">
+                            <button type="button" class="btn btn-modal" data-toggle="modal"
+                                data-target="#ExemploModalCentralizado">
+                                Saiba mais
+                            </button>
+                        </div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog"
+                            aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title sub-titile" id="TituloModalCentralizado">TaskBraim</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="text-justify estilo-text-p">Plataforma é projetada não apenas para
+                                            ajudar você a gerenciar suas tarefas e otimizar seu tempo, mas também para
+                                            promover o bem-estar e prevenir o burnout.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-modal" data-dismiss="modal">Fechar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 22rem;">
+                    <img src="./assets/img/Card2.jpg" class="card-img-top" alt="projeto Escola">
+                    <div class="card-body">
+                        <h5 class="card-title sub-titile">Escola</h5>
+                        <p class="card-text estilo-text-p">Na Escola, acreditamos que a educação é...</p>
+                        <!-- Botão para acionar modal -->
+                        <div class="btn-center">
+                            <button type="button" class="btn btn-modal" data-toggle="modal"
+                                data-target="#ExemploModalCentralizado1">
+                                Saiba mais
+                            </button>
+                        </div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="ExemploModalCentralizado1" tabindex="-1" role="dialog"
+                            aria-labelledby="TituloModalCentralizado1" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title sub-titile" id="TituloModalCentralizado1">Escola</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="text-justify estilo-text-p">Na Escola, acreditamos que a educação é a
+                                            chave para um futuro brilhante. Nossa plataforma conecta estudantes a
+                                            professores qualificados em diversas áreas de conhecimento, proporcionando
+                                            uma experiência de aprendizado personalizada e eficaz.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-modal" data-dismiss="modal">Fechar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 22rem;">
+                    <img src="./assets/img/Card3.jpg" class="card-img-top" alt="projeto anjos da noite">
+                    <div class="card-body">
+                        <h5 class="card-title sub-titile"> Anjos da Noite</h5>
+                        <p class="card-text estilo-text-p">No Anjos da Noite, conectamos voluntários a pessoas...
+                        </p>
+                        <!-- Botão para acionar modal -->
+                        <div class="btn-center">
+                            <button type="button" class="btn btn-modal" data-toggle="modal"
+                                data-target="#ExemploModalCentralizado2">
+                                Saiba mais
+                            </button>
+                        </div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="ExemploModalCentralizado2" tabindex="-1" role="dialog"
+                            aria-labelledby="TituloModalCentralizado2" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title sub-titile" id="TituloModalCentralizado2">Anjos da Noite
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="text-justify estilo-text-p">No Anjos da Noite, conectamos voluntários
+                                            a pessoas em situação de rua, oferecendo uma plataforma segura para ajudar
+                                            com alimentos, roupas e assistência. Junte-se a nós e faça a diferença na
+                                            vida de quem mais precisa, promovendo solidariedade e esperança.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-modal" data-dismiss="modal">Fechar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="container-fluid d-flex justify-content-evenly"
+                style="justify-content: space-evenly; margin-top: 30px;">
+                <!--Nao funcionou com a class justify-content-evenly-->
+                <div class="card" style="width: 22rem;">
+                    <img src="./assets/img/Card4.jpg" class="card-img-top" alt="Loja Whats">
+                    <div class="card-body">
+                        <h5 class="card-title sub-titile">Loja Whats</h5>
+                        <p class="card-text estilo-text-p">Nossa plataforma permite que você...</p>
+                        <!-- Botão para acionar modal -->
+                        <div class="btn-center">
+                            <button type="button" class="btn btn-modal" data-toggle="modal"
+                                data-target="#ExemploModalCentralizado4">
+                                Saiba mais
+                            </button>
+                        </div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="ExemploModalCentralizado4" tabindex="-1" role="dialog"
+                            aria-labelledby="TituloModalCentralizado4" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title sub-titile" id="TituloModalCentralizado4">Loja Whats</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="text-justify estilo-text-p">Nossa plataforma permite que você crie e
+                                            compartilhe seu catálogo de produtos, gerencie pedidos e se comunique
+                                            diretamente com seus clientes pelo WhatsApp.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-modal" data-dismiss="modal">Fechar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 22rem;">
+                    <img src="./assets/img/Card5.jpg" class="card-img-top" alt="Projeto By Max">
+                    <div class="card-body">
+                        <h5 class="card-title sub-titile">By Max</h5>
+                        <p class="card-text estilo-text-p">Descubra a liberdade sobre duas rodas...</p>
+                        <!-- Botão para acionar modal -->
+                        <div class="btn-center">
+                            <button type="button" class="btn btn-modal" data-toggle="modal"
+                                data-target="#ExemploModalCentralizado5">
+                                Saiba mais
+                            </button>
+                        </div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="ExemploModalCentralizado5" tabindex="-1" role="dialog"
+                            aria-labelledby="TituloModalCentralizado5" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title sub-titile" id="TituloModalCentralizado5">By Max</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="text-justify estilo-text-p">Descubra a liberdade sobre duas rodas com
+                                            as bicicletas elétricas da Bymax! Com designs inovadores, tecnologia de
+                                            ponta e conforto incomparável, nossas bikes são perfeitas para qualquer
+                                            aventura. Explore nossa linha completa e encontre a bicicleta ideal para
+                                            transformar seu trajeto diário ou suas aventuras de fim de semana.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-modal" data-dismiss="modal">Fechar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 22rem;">
+                    <img src="./assets/img/Card6.jpg" class="card-img-top" alt="Projeto Mr. Batata">
+                    <div class="card-body">
+                        <h5 class="card-title sub-titile">Mr. Batata</h5>
+                        <p class="card-text estilo-text-p">Delicie-se com o sabor único das batatas suíças...</p>
+                        <!-- Botão para acionar modal -->
+                        <div class="btn-center">
+                            <button type="button" class="btn btn-modal" data-toggle="modal"
+                                data-target="#ExemploModalCentralizado6">
+                                Saiba mais
+                            </button>
+                        </div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="ExemploModalCentralizado6" tabindex="-1" role="dialog"
+                            aria-labelledby="TituloModalCentralizado6" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title sub-titile" id="TituloModalCentralizado6">Mr. Batata</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="text-justify estilo-text-p">Delicie-se com o sabor único das batatas
+                                            suíças do Mr. Batata! Preparadas com ingredientes frescos e um toque
+                                            especial, nossas batatas são crocantes por fora e macias por dentro,
+                                            perfeitas para qualquer ocasião. Explore nosso menu e descubra a verdadeira
+                                            experiência gourmet em cada mordida.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-modal" data-dismiss="modal">Fechar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato">
+            <div class="container mt-5">
+                <h1 class="my-4">Contato</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" class="form-control" id="name" placeholder="Digite seu nome"
+                            aria-describedby="nameHelp" required>
+                        <small id="nameHelp" class="form-text text-muted">Por favor, insira seu nome completo.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Digite seu email"
+                            aria-describedby="emailHelp" required>
+                        <small id="emailHelp" class="form-text text-muted">Seu email estará seguro conosco.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefone</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Digite seu telefone"
+                            aria-describedby="phoneHelp" required>
+                        <small id="phoneHelp" class="form-text text-muted">Inclua o código de área.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="comments">Fale com nós</label>
+                        <textarea class="form-control" id="comments" rows="3" placeholder="Fale um pouco mais"
+                            aria-describedby="commentsHelp"></textarea>
+                        <small id="commentsHelp" class="form-text text-muted">Deixe seus comentários ou
+                            perguntas.</small>
+                    </div>
+                    <div class="form-group btn-center">
+                        <button type="submit" class="btn btn-modal">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section id="modelo">
+            <div class="container mt-5">
+                <h1 class="my-4">Modelo de Trabalho</h1>
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr style="text-align: center;">
+                                <th scope="col">Passo a Passo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Pesquisa</td>
+                            </tr>
+                            <tr>
+                                <td>Desenvolvimento</td>
+                            </tr>
+                            <tr>
+                                <td>Prototipação</td>
+                            </tr>
+                            <tr>
+                                <td>Lançamento de Solução</td>
+                            </tr>
+                            <tr>
+                                <td>Análise de Resultados</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+
+        <footer class="text-white mt-5">
+            <div class="container py-4">
+                <div class="row d-flex justify-content-evenly" style="justify-content: space-evenly;">
+                    <div class="col-md-4">
+                        <ul class="list-unstyled">
+                            <li><a href="index.html">Início</a></li>
+                            <li><a href="#sobre">Sobre</a></li>
+                            <li><a href="#projetos">Serviços</a></li>
+                            <li><a href="#contato">Contato</a></li>
+                            <li><a href="#modelo">Modelo de Trabalho</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-unstyled">
+                            <li><a href="" class="text-white">Rua Teia Teiosa 234</a></li>
+                            <li><a href="" class="text-white">Cidade New York</a></li>
+                            <li><a href="" class="text-white">CEP 00000000</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <!-- Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
